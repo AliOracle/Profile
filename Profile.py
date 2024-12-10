@@ -1,5 +1,7 @@
 import streamlit as st
 
+#st.sidebar.image("image/Ali Pic 2014.JPG", caption="Ali Asghar Shabbir Hussain")
+
 ## Page setups
 about_me = st.Page(
     page = "views/about_me.py",
@@ -29,6 +31,7 @@ pg = st.navigation(
      "Qualification": [accedmic_qualification, additional_qualification],}
 )
 
-st.sidebar.text("Developed by Ali Asghar")
+#st.logo("image/Ali Pic 2014.JPG")
+st.sidebar.text("Design & Developed by Ali Asghar")
 
 pg.run()
